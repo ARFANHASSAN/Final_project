@@ -1,0 +1,11 @@
+Iteration,Model,Parameters Tweaked,Changes Made,Mean Squared Error,R-squared Score
+1,LinearRegression,Default,Initial Model,0.01924667960076889,0.6355028418257971
+2,RandomForestRegressor,"{'max_depth': 15, 'n_estimators': 200}",Hyperparameter Tuning with Grid Search,0.010737462400835838,0.7966519621934858
+3,RandomForestRegressor,"{'n_estimators': 100, 'max_depth': 15}",Hyperparameter Tuning with Randomized Search,0.010875747850781027,0.7940330869086367
+4,RandomForestRegressor,"{'n_estimators': 100, 'max_depth': 15}",Hyperparameter Tuning with Randomized Search,0.010780687014918168,0.7958333665020214
+5,RandomForestRegressor,"{'n_estimators': 100, 'max_depth': 15}",Hyperparameter Tuning with Randomized Search,0.010769983195812613,0.7960360773969142
+6,RandomForestRegressor,"{'n_estimators': 100, 'max_depth': 15}",Hyperparameter Tuning with Randomized Search,0.01078770078128381,0.7957005385046003
+7,RandomForestRegressor,"{'n_estimators': 100, 'max_depth': 15}",Hyperparameter Tuning with Randomized Search,0.010619899903673848,0.7988783823871122
+8,RandomForestRegressor,"{'n_estimators': 100, 'max_depth': 15}",Hyperparameter Tuning with Randomized Search,0.010734085906006595,0.796715906873575
+9,RandomForestRegressor,"{'n_estimators': 100, 'max_depth': 15}",Hyperparameter Tuning with Randomized Search,0.010763849099673404,0.7961522460377959
+10,RandomForestRegressor,"{'n_estimators': 100, 'max_depth': 15}",Hyperparameter Tuning with Randomized Search,0.01075751663290809,0.7962721714580797
