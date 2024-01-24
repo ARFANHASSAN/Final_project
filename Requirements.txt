@@ -1,0 +1,46 @@
+Requirement to run the files:
+
+Cleaning and Exploration:
+
+1.pip install pandas
+2.pip install scipy
+
+Data_Model_Implementation/Different_Data_Model_Implementation:
+
+1.pip install pandas
+2.pip install matplotlib
+3.pip install seaborn
+4.pip install scipy
+5.pip install scikit-learn
+6.pip install sqlalchemy
+
+Data_Model_Optimization:
+
+1. pip install pandas
+2.pip install scipy
+3.pip install matplotlib
+4.pip install scikit-learn
+5.pip install sqlalchemy
+
+Visualization_Analysis:
+
+1.pip install pandas
+2.pip install seaborn
+3.pip install matplotlib
+4.pip install folium
+5.pip install dash
+6.pip install plotly
+7.python app.py
+
+geoapify:
+
+1.pip install pandas
+2.pip install scipy
+3.pip install scikit-learn
+4.pip install sqlalchemy
+5.pip install requests
+6.from api_keys import geoapify_key
+
+Tableau:
+Tableau public
+

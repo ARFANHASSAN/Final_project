@@ -1,5 +1,11 @@
 Iteration,Model,Parameters Tweaked,Changes Made,Mean Squared Error,R-squared Score
-1,LinearRegression,Default,Initial Model,0.01924667960076889,0.6355028418257971
-2,RandomForestRegressor,"{'max_depth': 15, 'n_estimators': 150}",Hyperparameter Tuning with Grid Search,0.01073632587515713,0.7966734859258217
-3,RandomForestRegressor,"{'n_estimators': 200, 'max_depth': 15}",Hyperparameter Tuning with Randomized Search,0.01076112990247023,0.7962037426945509
-4,RandomForestRegressor,"{'n_estimators': 200, 'max_depth': 15}",Hyperparameter Tuning with Randomized Search,0.010724574163705087,0.796896041998703
+1,LinearRegression,Default,Initial Model,0.37640758343021063,0.6290014764944827
+2,RandomForestRegressor,"{'max_depth': 15, 'n_estimators': 150}","Hyperparameter Tuning with Grid Search - {'max_depth': 15, 'n_estimators': 150}",0.20410518875225742,0.7988278477897827
+3,RandomForestRegressor,"{'n_estimators': 150, 'max_depth': 15}","Hyperparameter Tuning with Randomized Search - {'n_estimators': 150, 'max_depth': 15}",0.20315046143721252,0.7997688554629123
+4,DecisionTreeRegressor,"{'max_depth': 10, 'min_samples_split': 10}","Decision Tree Hyperparameter Tuning - {'max_depth': 10, 'min_samples_split': 10}",0.3275958582737633,0.6771117664035506
+5,GradientBoostingRegressor,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 150}","Gradient Boosting Hyperparameter Tuning - {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 150}",0.18511232144481995,0.8175477834084601
+6,DecisionTreeRegressor,"{'max_depth': 10, 'min_samples_split': 10}","Decision Tree Hyperparameter Tuning - {'max_depth': 10, 'min_samples_split': 10}",0.3278140426185804,0.6768967174158509
+7,GradientBoostingRegressor,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 150}","Gradient Boosting Hyperparameter Tuning - {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 150}",0.18393458372797197,0.8187085967747731
+8,DecisionTreeRegressor,"{'max_depth': 10, 'min_samples_split': 10}","Decision Tree Hyperparameter Tuning - {'max_depth': 10, 'min_samples_split': 10}",0.32578235141254513,0.6788992127715215
+9,GradientBoostingRegressor,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 150}","Gradient Boosting Hyperparameter Tuning - {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 150}",0.18365656999753965,0.8189826153866319
+10,DecisionTreeRegressor,"{'max_depth': 10, 'min_samples_split': 10}","Decision Tree Hyperparameter Tuning - {'max_depth': 10, 'min_samples_split': 10}",0.3257778963093581,0.678903603853894
