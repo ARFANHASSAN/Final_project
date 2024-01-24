@@ -4,13 +4,13 @@
 Group Members: Suwaiba Idris, Shavez Hussain, Gwendoline Grenu, Arfan Hassan
 
 ### Aim 
-* The project aims at building a model  housing tool that predicts median house values in California. chose to use a dataset (housing.csv), sourced from [Kaggle]("https://www.kaggle.com/datasets/shibumohapatra/house-price") for this purpose.
-  
-* We also aim to analyze the correlation between median household income and living space(no of total rooms).
-  
-* We also aim to analyze the correlation between median household income and house pricing.
-  
-* We also aim to analyze the correlation between median household income and median house price.
+* The objective of this project is to develop a predictive model for median house values in California, utilizing a dataset named "housing.csv" obtained from [Kaggle](https://www.kaggle.com/datasets/shibumohapatra/house-price).
+
+* Additionally, we seek to examine the relationship between median household income and the living space (number of total rooms).
+
+* Furthermore, our goal is to investigate the correlation between median household income and housing prices.
+
+* Moreover, we intend to explore the connection between median household income and the median house price in our analysis.
 
 
  **Data Exploration and Preprocessing:**
@@ -19,11 +19,11 @@ Group Members: Suwaiba Idris, Shavez Hussain, Gwendoline Grenu, Arfan Hassan
    - Preprocessing steps include handling missing values, outliers, dropping columnsas well as transforming variables as needed for model training.
    - One-hot encoding, was carried on 'ocean proximity' to modify the column to values that will enhance the predictive power of the model.
 
- **Model Development:**
+ **Model Development**
    - Tested and evaluated different regression algorithms for their performance in predicting for our model.
   
    - Hyperparameter tuning (Grid Search and Random Search) was used to select the most effective model for the given dataset.
-   - 
+  
    - Performance metrics such as Mean Squared Error, R-squared, or others are computed to assess the model's accuracy.
   ### Model Optimization
   The overall performance of the model was tested in the following steps, 
@@ -70,5 +70,5 @@ The plot above displays the median housing price going up with median income val
 ![Alt text](geo_map.PNG)
 A geospatial map was created showing all the houses from our dataset and a hover information including the predicted housing prices.
 
-### [Storytelly on Tableau](https://public.tableau.com/app/profile/gwendoline.grenu/viz/Project4-CaliforniaHousing/Story1#1)
+### [Storytelling on Tableau](https://public.tableau.com/app/profile/gwendoline.grenu/viz/Project4-CaliforniaHousing/Story1#1)
 
